@@ -19,7 +19,6 @@ class CreateSalesTable extends Migration
             $table->integer('carmodel_id')->unsigned();
             $table->foreign('employee_id')->references('id')->on('employees');
             $table->foreign('carmodel_id')->references('id')->on('carmodels');
-            $table->timestamps();
         });
     }
 

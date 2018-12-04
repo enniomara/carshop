@@ -18,7 +18,6 @@ class CreateCarmodelsTable extends Migration
             $table->string('brand');
             $table->string('model');
             $table->integer('price');
-            $table->timestamps();
         });
     }
 
