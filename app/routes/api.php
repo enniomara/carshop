@@ -14,3 +14,4 @@ use Illuminate\Http\Request;
 */
 
 Route::get('/user', 'CarModelController@get');
+Route::get('/employees', 'EmployeeController@get');
