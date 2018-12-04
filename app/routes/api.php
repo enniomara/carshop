@@ -13,6 +13,4 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/user', function (Request $request) {
-    return response()->json(['aa' => 21]);
-});
+Route::get('/user', 'CarModelController@get');
