@@ -22,4 +22,5 @@ sudo systemctl restart apache2
 
 cd /vagrant/app
 composer install
+php artisan key:generate
 php artisan migrate && php artisan db:seed
