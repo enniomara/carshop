@@ -20,8 +20,6 @@ sudo a2enmod rewrite
 sudo systemctl restart apache2
 
 
-cd /vagrant
-composer install
-
 cd /vagrant/app
+composer install
 php artisan migrate && php artisan db:seed
