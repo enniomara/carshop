@@ -13,6 +13,7 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/user', 'CarModelController@get');
+Route::get('/carmodels', 'CarModelController@get');
+Route::post('/carmodels', 'CarModelController@create');
 Route::get('/employees', 'EmployeeController@get');
 Route::get('/total_sales', 'SalesController@get');
