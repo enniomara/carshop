@@ -1,5 +1,5 @@
 # Starting the application
 ```
-$ cp .env.example .env
+$ cp app/.env.example app/.env
 $ vagrant up
 ```
